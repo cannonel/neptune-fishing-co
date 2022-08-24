@@ -12,29 +12,31 @@ body {
 
 /* apply styles to <header> */
 header {
-  padding: 20px 35px;
-  background-color: #39a6b2;
+  background: black;
+  width: 100%;
+  padding: 20px 15px;
+  display: flex;
+  justify-content: center;
 }
 
-header h1 {
-  font-weight: bold;
-  font-size: 36px;
-  color: #fce138;
-  margin: 0;
-  display: inline;
-}
 header a {
   text-decoration: none;
-  color: #fce138;
+  color: #39a6b2;
+}
+
+nav img {
+  width: 25%;
+ /* margin: 5px 0; */
 }
 
 header nav {
   float: right;
   margin: 7px 0;
+  text-align: center;
 }
 
 header nav ul li {
-  display: inline;
+  display: inline-block;
 }
 
 header nav ul li a {
@@ -44,20 +46,18 @@ header nav ul li a {
 }
 
 footer {
-  background: #fce138;
+  background: black;
   width: 100%;
-  padding: 40px 35px;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: center;
 }
+
 
 footer img {
-  align-items: center;
-  width: 15%;
-  margin: 10px 0;
+  height: 0%;
+  width: 25%;
 }
-
-
-
-
 
 section {
   padding: 60px;
